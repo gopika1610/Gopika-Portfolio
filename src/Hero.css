@@ -1,0 +1,164 @@
+/* HERO CONTAINER */
+.hero-container {
+  height: 100vh;
+  position: relative;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(10, 10, 30, 0.4);
+  backdrop-filter: blur(8px);
+}
+
+/* LOGO */
+.logo-name {
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #7f7cff, #00e5ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* NAV LINKS - CENTER */
+.nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+/* NAV ITEMS - React NavLink */
+.nav-links a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+  text-decoration: none; /* removes underline */
+}
+
+/* HOVER */
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+/* ACTIVE LINK */
+.nav-links a.active {
+  color: #29a9ff;
+  font-weight: 600;
+}
+
+/* Remove underline pseudo-elements for active */
+.nav-links a.active::after {
+  display: none;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* GLASS CARD */
+.glass-card {
+  max-width: 560px;
+  padding: 48px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* TITLE */
+.glass-card h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.glass-card h1 span {
+  background: linear-gradient(90deg, #7f7cff, #00e5ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* DESCRIPTION */
+.glass-card p {
+  margin: 16px auto 0;
+  max-width: 420px;
+  font-size: 15px;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+/* ROLE BUTTON */
+.role-btn {
+  margin-top: 24px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, #7f7cff, #00e5ff);
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* BUTTON HOVER POLISH */
+.role-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 229, 255, 0.35);
+}
+.nav-links a.active {
+  color: #29a9ff;
+  font-weight: 600;
+}
+.nav-links a:hover {
+  color: #00d4ff;
+  text-shadow: 0 0 1px #00d4ff, 0 0 2px #00d4ff; /* subtle glow */
+}
+
+.nav-links a.active {
+  color: #00d4ff;
+  font-weight: 600;
+  text-shadow: 0 0 1px #00d4ff, 0 0 2px #00d4ff;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #00d4ff;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  width: 100%;
+}
+/* NAV LINKS - RIGHT ALIGN ONLY */
+.nav-links {
+  position: relative; /* keep relative, not absolute */
+  left: auto;         /* remove centering */
+  transform: none;    /* remove translateX */
+  margin-left: auto;  /* push nav links to the right */
+  display: flex;
+  gap: 36px;          /* keep spacing between links */
+}

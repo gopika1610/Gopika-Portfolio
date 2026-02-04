@@ -1,0 +1,71 @@
+.skills-section {
+  height: 100vh;
+  background: linear-gradient(180deg, #050514, #07071a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* CONTAINER */
+.skills-container {
+  max-width: 1100px;
+  text-align: center;
+  padding: 0 24px;
+}
+
+/* TITLE */
+.skills-container h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+
+
+.skills-container h2 span {
+  background: linear-gradient(90deg, #7f7cff, #00e5ff);
+  background-clip: text;
+  color: transparent;
+}
+
+/* SUBTITLE */
+.skills-sub {
+  font-size: 15px;
+  max-width: 520px;
+  margin: 0 auto 48px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+}
+
+
+/* GRID */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 24px;
+  justify-items: center;
+}
+
+/* SKILL CHIP */
+.skills-grid span {
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  backdrop-filter: blur(6px);
+  transition: all 0.35s ease;
+}
+
+/* HOVER – subtle premium */
+.skills-grid span:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(90deg, #7f7cff, #00e5ff);
+  color: #000;
+  box-shadow: 0 12px 30px rgba(0, 229, 255, 0.25);
+}

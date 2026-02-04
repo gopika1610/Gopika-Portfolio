@@ -1,0 +1,67 @@
+
+
+.projects-section {
+  padding: 5rem 2rem;
+  background: linear-gradient(180deg, #050514, #07071a);
+  color: #fff;
+  text-align: center;
+  min-height: 100vh; /* full screen height */
+  display: flex;      /* make content vertically centered */
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.projects-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #00d4ff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  
+  gap: 2rem;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+    background: linear-gradient(135deg, #2b0263, #6b00ff);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 212, 255, 0.6);
+}
+
+.project-card h3 {
+  margin-bottom: 1rem;
+  color: #00d4ff;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #6b00ff, #00d4ff);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.project-btn:hover {
+  background: linear-gradient(90deg, #00d4ff, #6b00ff);
+}
