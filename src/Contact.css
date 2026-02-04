@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-/* Container for Cards */
+
 .contact-container {
   display: flex;
   gap: 2.5rem;
@@ -25,7 +25,7 @@
   width: 100%;
 }
 
-/* Neon Card Base */
+
 .neon-card {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 15px;
@@ -36,13 +36,13 @@
   transition: all 0.3s ease;
 }
 
-/* Outer card glow on hover */
+
 .neon-card:hover {
   box-shadow: 0 0 20px #00d4ff, 0 0 40px #00d4ff;
   transform: translateY(-5px);
 }
 
-/* Form Card */
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -72,14 +72,14 @@
   border-radius: 50px;
   font-weight: 600;
   font-size: 16px;
-  color: #000; /* text color */
+  color: #000;
   background: linear-gradient(90deg, #7f7cff, #00e5ff); /* neon gradient */
   border: none;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s;
 }
 
-/* Hover Effect */
+
 .contact-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 212, 255, 0.35); /* subtle neon glow */
@@ -92,7 +92,7 @@
 background: linear-gradient(90deg, #00d4ff, #6b00ff);
 }
 
-/* Info Card */
+
 .info-card h3 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
@@ -100,7 +100,7 @@ background: linear-gradient(90deg, #00d4ff, #6b00ff);
   text-align: center;
 }
 
-/* Inner contact cards stacked vertically */
+
 .contact-inner-card {
   display: flex;
   align-items: center;
@@ -116,7 +116,7 @@ background: linear-gradient(90deg, #00d4ff, #6b00ff);
   margin-bottom: 0;
 }
 
-/* Inner hover effect */
+
 .contact-inner-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff;
@@ -149,9 +149,9 @@ background: linear-gradient(90deg, #00d4ff, #6b00ff);
   padding: 1rem;
   margin-bottom: 1rem;
   transition: all 0.3s ease;
-  text-decoration: none; /* remove underline */
-  cursor: pointer; /* make clickable */
-  color: inherit; /* keep text color */
+  text-decoration: none; 
+  cursor: pointer; 
+  color: inherit; 
 }
 
 .contact-inner-card:last-child {
@@ -165,7 +165,6 @@ background: linear-gradient(90deg, #00d4ff, #6b00ff);
   text-align: center;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;

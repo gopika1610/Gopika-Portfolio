@@ -5,8 +5,8 @@
   background: linear-gradient(180deg, #050514, #07071a);
   color: #fff;
   text-align: center;
-  min-height: 100vh; /* full screen height */
-  display: flex;      /* make content vertically centered */
+  min-height: 100vh; 
+  display: flex;     
   flex-direction: column;
   justify-content: center;
 }

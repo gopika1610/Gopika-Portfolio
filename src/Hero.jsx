@@ -13,7 +13,7 @@ function Hero() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      {/* NAVBAR */}
+    
       <nav className="navbar px-5 pt-4">
         <div className="logo-name">GOPIKA S</div>
         <div className="nav-links">
@@ -34,7 +34,7 @@ function Hero() {
         </div>
       </nav>
 
-      {/* HERO CONTENT */}
+   
       <div className="hero-content px-5">
         <div className="glass-card">
           <h1>

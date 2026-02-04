@@ -24,7 +24,7 @@ body {
   100% { box-shadow: 0 0 20px #00f0ff, 0 0 60px #00f0ff, 0 0 100px #00f0ff; }
 }
 
-/* Smooth button hover */
+
 .btn-info {
   transition: all 0.3s ease;
 }
@@ -33,7 +33,7 @@ body {
   color: #000;
   transform: scale(1.05);
 }
-/* Neon card effect */
+
 .neon-card {
   background: #222238;
   border: 1px solid #00f0ff;
@@ -46,7 +46,7 @@ body {
   box-shadow: 0 0 20px #00f0ff, 0 0 60px #00f0ff, 0 0 100px #00f0ff;
 }
 
-/* Input neon glow */
+
 .neon-input {
   background: #222238;
   border: 1px solid #00f0ff;
@@ -62,14 +62,14 @@ body {
   outline: none;
 }
 
-/* Section headings */
+
 section h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-/* Smooth button hover */
+
 .btn-info {
   transition: all 0.3s ease;
 }

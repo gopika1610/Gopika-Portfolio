@@ -7,14 +7,14 @@
   position: relative;
 }
 
-/* CONTAINER */
+
 .skills-container {
   max-width: 1100px;
   text-align: center;
   padding: 0 24px;
 }
 
-/* TITLE */
+
 .skills-container h2 {
   font-size: 42px;
   font-weight: 700;
@@ -30,7 +30,7 @@
   color: transparent;
 }
 
-/* SUBTITLE */
+
 .skills-sub {
   font-size: 15px;
   max-width: 520px;
@@ -40,7 +40,7 @@
 }
 
 
-/* GRID */
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -48,7 +48,7 @@
   justify-items: center;
 }
 
-/* SKILL CHIP */
+
 .skills-grid span {
   width: 100%;
   padding: 16px 0;
@@ -62,7 +62,7 @@
   transition: all 0.35s ease;
 }
 
-/* HOVER – subtle premium */
+
 .skills-grid span:hover {
   transform: translateY(-6px);
   background: linear-gradient(90deg, #7f7cff, #00e5ff);

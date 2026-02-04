@@ -32,7 +32,7 @@ const Contact = () => {
       <h2 className="contact-title">Get in Touch</h2>
 
       <div className="contact-container">
-        {/* Form Card */}
+      
         <div className="neon-card">
           <h3>Send a Message</h3>
           <form ref={form} className="contact-form" onSubmit={handleSubmit}>
@@ -43,7 +43,7 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Info Card with clickable inner cards */}
+    
         <div className="neon-card info-card">
           <h3>Contact Info</h3>
 

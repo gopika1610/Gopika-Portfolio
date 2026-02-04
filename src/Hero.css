@@ -1,10 +1,10 @@
-/* HERO CONTAINER */
+
 .hero-container {
   height: 100vh;
   position: relative;
 }
 
-/* NAVBAR */
+
 .navbar {
   height: 72px;
   display: flex;
@@ -14,7 +14,7 @@
   backdrop-filter: blur(8px);
 }
 
-/* LOGO */
+
 .logo-name {
   font-size: 20px;
   font-weight: 700;
@@ -24,7 +24,7 @@
   color: transparent;
 }
 
-/* NAV LINKS - CENTER */
+
 .nav-links {
   position: absolute;
   left: 50%;
@@ -34,7 +34,7 @@
   gap: 36px;
 }
 
-/* NAV ITEMS - React NavLink */
+
 .nav-links a {
   font-size: 16px;
   font-weight: 500;
@@ -46,23 +46,23 @@
   text-decoration: none; /* removes underline */
 }
 
-/* HOVER */
+
 .nav-links a:hover {
   color: #ffffff;
 }
 
-/* ACTIVE LINK */
+
 .nav-links a.active {
   color: #29a9ff;
   font-weight: 600;
 }
 
-/* Remove underline pseudo-elements for active */
+
 .nav-links a.active::after {
   display: none;
 }
 
-/* HERO CONTENT */
+
 .hero-content {
   height: calc(100vh - 72px);
   display: flex;
@@ -71,7 +71,7 @@
   text-align: center;
 }
 
-/* GLASS CARD */
+
 .glass-card {
   max-width: 560px;
   padding: 48px;
@@ -83,7 +83,7 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* TITLE */
+
 .glass-card h1 {
   font-size: 42px;
   font-weight: 700;
@@ -96,7 +96,6 @@
   color: transparent;
 }
 
-/* DESCRIPTION */
 .glass-card p {
   margin: 16px auto 0;
   max-width: 420px;
@@ -105,7 +104,7 @@
   line-height: 1.6;
 }
 
-/* ROLE BUTTON */
+
 .role-btn {
   margin-top: 24px;
   padding: 10px 20px;
@@ -118,7 +117,7 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* BUTTON HOVER POLISH */
+
 .role-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 229, 255, 0.35);
@@ -153,12 +152,12 @@
 .nav-links a.active::after {
   width: 100%;
 }
-/* NAV LINKS - RIGHT ALIGN ONLY */
+
 .nav-links {
-  position: relative; /* keep relative, not absolute */
-  left: auto;         /* remove centering */
-  transform: none;    /* remove translateX */
-  margin-left: auto;  /* push nav links to the right */
+  position: relative; 
+  left: auto;         
+  transform: none;  
+  margin-left: auto;
   display: flex;
-  gap: 36px;          /* keep spacing between links */
+  gap: 36px;          
 }
