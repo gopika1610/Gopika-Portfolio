@@ -13,10 +13,20 @@
 
 
 .projects-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 700;
   margin-bottom: 3rem;
-  color: #00d4ff;
+  text-align: center;
+
+  background: linear-gradient(90deg, #7f7cff, #00d4ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  text-shadow: 0 0 12px rgba(0, 212, 255, 0.55);
 }
+
 
 .projects-grid {
   display: grid;

@@ -6,17 +6,17 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A responsive portfolio built with React, HTML, CSS, and Bootstrap.",
-    link: "#",
+    link: "https://gopika-portfolio-r5bk.vercel.app/",
   },
   {
     title: "E-commerce App",
     description: "E-commerce frontend built with React, including cart functionality and interactive UI.",
-    link: "#",
+    link: "https://react-sweets-cart-app-xics.vercel.app/",
   },
   {
     title: "Task Manager",
     description: "A productivity web app with drag & drop and timer features.",
-    link: "#",
+    link:"https://kanban-board-js-zeta.vercel.app/",
   },
 ];
 

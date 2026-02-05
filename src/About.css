@@ -1,6 +1,6 @@
 .about-section {
-  height: 100vh; /* full viewport */
-  background: linear-gradient(180deg, #050514, #07071a); /* dark background like Hero */
+  height: 100vh;
+  background: linear-gradient(180deg, #050514, #07071a); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
   max-width: 700px;
   padding: 2rem;
   border-radius: 1rem;
-  background: linear-gradient(135deg, #2b0263, #6b00ff); /* same as project cards */
+  background: linear-gradient(135deg, #2b0263, #6b00ff); 
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   color: white;
@@ -19,22 +19,22 @@
   cursor: default;
 }
 
-/* Hover effect - neon glow and scale */
+
 .about-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 40px rgba(107, 0, 255, 0.7); /* neon glow */
-  background: linear-gradient(135deg, #3b0eff, #9b00ff); /* brighter gradient */
+  box-shadow: 0 12px 40px rgba(107, 0, 255, 0.7);
+  background: linear-gradient(135deg, #3b0eff, #9b00ff); 
 }
 
 .about-title {
   font-size: 3rem;
-  color: #00d4ff; /* neon accent */
+  color: #00d4ff;
   margin-bottom: 1rem;
   transition: color 0.3s ease;
 }
 
 .about-title:hover {
-  color: #00fff0; /* brighter neon on hover */
+  color: #00fff0; 
 }
 
 .about-text {
